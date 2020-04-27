@@ -3,6 +3,8 @@
 ## Train
 Before you begin, make sure to save the required data files for training, validation, and testing. To do this, run the contents of create_input_files.py after pointing it to the the Karpathy JSON file which can be downloaded here: http://cs.stanford.edu/people/karpathy/deepimagesent/caption_datasets.zip and the image folder containing the extracted train2014 and val2014 folders from your downloaded data.
 
+To utilize the glove embedding, gloveProcessing.ipynb has to be ran with glove_path changed to folder where http://nlp.stanford.edu/data/glove.6B.zip is extracted to.
+
 See train.py.
 
 The parameters for the model (and training it) are at the beginning of the file, so you can easily check or modify them should you wish to.
