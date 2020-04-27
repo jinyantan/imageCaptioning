@@ -22,6 +22,7 @@ Note that we perform validation at the end of every training epoch.
 
 ## Test
 To get a  caption for a particular image run:
+
 python caption.py --img='path/to/image.jpeg' --model='path/to/BEST_checkpoint_coco_5_cap_per_img_5_min_word_freq.pth.tar' --word_map='path/to/WORDMAP_coco_5_cap_per_img_5_min_word_freq.json' --beam_size=5
 
 To generate captions for a validation set: 
